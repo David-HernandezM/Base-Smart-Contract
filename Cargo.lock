@@ -736,6 +736,7 @@ dependencies = [
  "contract",
  "contract-app",
  "contract-client",
+ "sails-client-gen",
  "sails-idl-gen",
  "sails-rs",
  "tokio",
