@@ -736,6 +736,7 @@ dependencies = [
  "contract",
  "contract-app",
  "contract-client",
+ "gstd",
  "sails-client-gen",
  "sails-idl-gen",
  "sails-rs",
