@@ -11,9 +11,9 @@ use contract_client::{
 };
 
 #[cfg(debug_assertions)]
-pub(crate) const CONTRACT_WASM_PATH: &str = "../../../target/wasm32-gear/debug/demo.opt.wasm";
+pub(crate) const CONTRACT_WASM_PATH: &str = "../../../target/wasm32-gear/debug/contract.opt.wasm";
 #[cfg(not(debug_assertions))]
-pub(crate) const CONTRACT_WASM_PATH: &str = "../../../target/wasm32-gear/release/demo.opt.wasm";
+pub(crate) const CONTRACT_WASM_PATH: &str = "../../../target/wasm32-gear/release/contract.opt.wasm";
 
 pub(crate) const ADMIN_ID: u64 = 10;
 

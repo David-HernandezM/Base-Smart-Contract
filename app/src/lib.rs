@@ -14,7 +14,7 @@ pub struct ContractProgram {
     state: RefCell<CounterData>,
 }
 
-#[program(payable)]
+#[program]
 impl ContractProgram {
     pub fn new() -> Self {
         Self {

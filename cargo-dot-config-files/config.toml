@@ -1,0 +1,24 @@
+
+[env]
+GEAR_WORKSPACE_DIR = { value = "/home/david/GEAR/work/contracts/Base_Smart_Contract", force = true }
+
+[target.x86_64-unknown-linux-gnu]
+linker = "gcc"
+rustflags = []  # sin -fuse-ld
+# [env]
+# # Portátil y reproducible: calcula la ruta desde el repo
+# # GEAR_WORKSPACE_DIR = { value = ".", relative = true }
+# GEAR_WORKSPACE_DIR = { value = "", relative = true }
+
+# [target.x86_64-unknown-linux-gnu]
+# linker = "clang"
+# rustflags = ["-C", "link-arg=-fuse-ld=mold"]
+
+# [target.x86_64-unknown-linux-gnu]
+# linker = "clang"
+# rustflags = ["-Clink-arg=-fuse-ld=lld"]
+
+# [target.x86_64-unknown-linux-gnu]
+# # Usa clang + lld (opcional pero estable). NO pongas -nodefaultlibs ni -pie.
+# linker = "clang"
+# rustflags = ["-Clink-arg=-fuse-ld=lld"]
